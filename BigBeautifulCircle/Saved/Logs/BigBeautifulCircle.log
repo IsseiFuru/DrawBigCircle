@@ -17093,3 +17093,662 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.01.10-10.06.37:268][963]LogViewport: Scene viewport resized to 2472x1237, mode WindowedFullscreen.
 [2023.01.10-10.06.39:605][243]Cmd: MainFrame.ToggleFullscreen
 [2023.01.10-10.06.39:802][243]LogViewport: Scene viewport resized to 2477x1210, mode Windowed.
+[2023.01.10-10.07.04:066][898]LogDerivedDataCache: C:/Users/FurutaniIssei/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:11.049 and deleted 0 files with total size 0 MiB. Scanned 5857 files in 5802 folders with total size 360 MiB.
+[2023.01.10-10.07.34:600][124]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.10-10.07.34:600][124]LogWorld: BeginTearingDown for /Game/Map/UEDPIE_0_Main
+[2023.01.10-10.07.34:600][124]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2023.01.10-10.07.34:600][124]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.10-10.07.34:606][124]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.01.10-10.07.34:610][124]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.10-10.07.34:734][124]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.10-10.07.34:734][124]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2023.01.10-10.07.34:735][124]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2023.01.10-10.07.34:743][124]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2023.01.10-10.07.34:805][125]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2023.01.10-10.07.34:819][125]LogViewport: Scene viewport resized to 848x477, mode Windowed.
+[2023.01.10-10.07.48:389][379]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=スピーカー (Realtek(R) Audio), InstanceID=1
+[2023.01.10-10.07.48:403][379]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=24004
+[2023.01.10-10.07.48:732][380]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{d0f1d057-c45b-4b8b-99f1-f5d4c9a16f25}, Name=スピーカー (Realtek(R) Audio)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=72.13
+[2023.01.10-10.07.48:732][380]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.01.10-10.07.48:734][380]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.01.10-10.07.56:833][393]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [5000ms] waiting for h/w. InstanceID=1
+[2023.01.11-03.00.14:163][393]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2023.01.11-03.00.14:165][393]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=24004
+[2023.01.11-03.00.14:306][393]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=SHARP HDMI (NVIDIA High Definition Audio), InstanceID=1
+[2023.01.11-03.00.15:232][394]LogAutomationController: Ignoring very large delta of 60742.55 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2023.01.11-03.00.15:400][394]LogHttp: Warning: 000005BB5B548700: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6934939F-4153-B45A-0181-3BABDDCA08C4%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.1.0-23058290%2B%2B%2BUE5%2BRelease-5.1&UserID=c87f51cf40b05dc9534aacb42f258f8b%7Ca8ff21d3709241148d6698d94d9b6d8b%7C48548e11-0928-4f82-9fe5-b9dedf95e36c&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2023.01.11-03.00.15:400][394]LogHttp: Warning: 000005BB5B548700: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2023.01.11-03.00.15:400][394]LogHttp: Warning: 000005BB5B548700: libcurl info message cache 0 (Too old connection (60785 seconds idle), disconnect it)
+[2023.01.11-03.00.15:400][394]LogHttp: Warning: 000005BB5B548700: libcurl info message cache 1 (Connection 0 seems to be dead)
+[2023.01.11-03.00.15:400][394]LogHttp: Warning: 000005BB5B548700: libcurl info message cache 2 (Closing connection 0)
+[2023.01.11-03.00.15:400][394]LogHttp: Warning: 000005BB5B548700: libcurl info message cache 3 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2023.01.11-03.00.15:400][394]LogHttp: Warning: 000005BB5B548700: libcurl info message cache 4 (Could not resolve host: datarouter.ol.epicgames.com)
+[2023.01.11-03.00.15:400][394]LogHttp: Warning: 000005BB5B548700: libcurl info message cache 5 (Closing connection 1)
+[2023.01.11-03.00.15:400][394]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6934939F-4153-B45A-0181-3BABDDCA08C4%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.1.0-23058290%2B%2B%2BUE5%2BRelease-5.1&UserID=c87f51cf40b05dc9534aacb42f258f8b%7Ca8ff21d3709241148d6698d94d9b6d8b%7C48548e11-0928-4f82-9fe5-b9dedf95e36c&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2023.01.11-03.00.15:663][394]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2023.01.11-03.00.15:667][394]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{d0f1d057-c45b-4b8b-99f1-f5d4c9a16f25}, Name=スピーカー (Realtek(R) Audio)), Reason=AudioMixerPlatformInterface. Timeout waiting for h/w., InstanceID=1, DurationMS=1238.38
+[2023.01.11-03.00.15:667][394]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.01.11-03.00.15:669][394]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.01.11-03.00.15:998][395]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=24004
+[2023.01.11-03.00.16:329][396]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{dd5bfcb1-e38f-4378-9601-f97f7a1ceb34}, Name=SHARP HDMI (NVIDIA High Definition Audio)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=27.97
+[2023.01.11-03.00.16:329][396]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.01.11-03.00.16:331][396]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.01.11-03.00.16:992][398]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2023.01.11-03.00.18:856][404]LogUdpMessaging: Display: Added local interface '192.168.1.194' to multicast group '230.0.0.1:6666'
+[2023.01.11-03.00.23:811][418]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2023.01.11-03.00.23:820][418]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Map/Main_Auto4
+[2023.01.11-03.00.23:820][418]LogSavePackage: Moving '../../../../../../Users/FurutaniIssei/Documents/GitHub/BigBeautifulCircul/BigBeautifulCircle/Saved/Main_Auto42E93C9F147FAA8955BCF3CABE5234C1B.tmp' to '../../../../../../Users/FurutaniIssei/Documents/GitHub/BigBeautifulCircul/BigBeautifulCircle/Saved/Autosaves/Game/Map/Main_Auto4.umap'
+[2023.01.11-03.00.23:827][418]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Map/Main' took 0.063
+[2023.01.11-03.00.23:827][418]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.063
+[2023.01.11-03.00.23:827][418]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BP/BP_BBCircleGameMode] ([2] browsable assets)...
+[2023.01.11-03.00.23:827][418]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP/BP_BBCircleGameMode]
+[2023.01.11-03.00.23:843][418]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/BP/BP_BBCircleGameMode_Auto4
+[2023.01.11-03.00.23:844][418]LogSavePackage: Moving '../../../../../../Users/FurutaniIssei/Documents/GitHub/BigBeautifulCircul/BigBeautifulCircle/Saved/BP_BBCircleGameMode_Auto467AC2BB34F7E8957BF2E67B9D44F97D2.tmp' to '../../../../../../Users/FurutaniIssei/Documents/GitHub/BigBeautifulCircul/BigBeautifulCircle/Saved/Autosaves/Game/BP/BP_BBCircleGameMode_Auto4.uasset'
+[2023.01.11-03.00.23:844][418]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BP/BP_OscOneCursorReceiver] ([2] browsable assets)...
+[2023.01.11-03.00.23:844][418]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP/BP_OscOneCursorReceiver]
+[2023.01.11-03.00.23:855][418]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/BP/BP_OscOneCursorReceiver_Auto4
+[2023.01.11-03.00.23:855][418]LogSavePackage: Moving '../../../../../../Users/FurutaniIssei/Documents/GitHub/BigBeautifulCircul/BigBeautifulCircle/Saved/BP_OscOneCursorReceiver_Auto41B0046FB4D17DAECFEBE66A2A1392A71.tmp' to '../../../../../../Users/FurutaniIssei/Documents/GitHub/BigBeautifulCircul/BigBeautifulCircle/Saved/Autosaves/Game/BP/BP_OscOneCursorReceiver_Auto4.uasset'
+[2023.01.11-03.00.23:856][418]LogFileHelpers: Auto-saving content packages took 0.029
+[2023.01.11-03.02.38:005][821]LogDebuggerCommands: Repeating last play command: 選択ビューポート
+[2023.01.11-03.02.38:010][821]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.01.11-03.02.38:010][821]PIE: New page: PIEセッション: Main (2023/01/11 21:02:38)
+[2023.01.11-03.02.38:010][821]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Main
+[2023.01.11-03.02.38:013][821]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002538s)
+[2023.01.11-03.02.38:013][821]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Main.Main to /Game/Map/UEDPIE_0_Main.Main (0.002567s)
+[2023.01.11-03.02.38:013][821]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.11-03.02.38:014][821]LogAIModule: Creating AISystem for world Main
+[2023.01.11-03.02.38:014][821]LogPlayLevel: PIE: World Init took: (0.000749s)
+[2023.01.11-03.02.38:055][821]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2023.01.11-03.02.38:057][821]LogAudio: Display: Creating Audio Device:                 Id: 18, Scope: Unique, Realtime: True
+[2023.01.11-03.02.38:057][821]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.01.11-03.02.38:057][821]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.01.11-03.02.38:057][821]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.01.11-03.02.38:057][821]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.01.11-03.02.38:057][821]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.01.11-03.02.38:057][821]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.01.11-03.02.38:057][821]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.01.11-03.02.38:057][821]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.01.11-03.02.38:057][821]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.01.11-03.02.38:057][821]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.01.11-03.02.38:057][821]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.01.11-03.02.38:059][821]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.01.11-03.02.38:077][821]LogAudioMixer: Display: Using Audio Hardware Device SHARP HDMI (NVIDIA High Definition Audio)
+[2023.01.11-03.02.38:078][821]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.01.11-03.02.38:078][821]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.01.11-03.02.38:078][821]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.01.11-03.02.38:078][821]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=18
+[2023.01.11-03.02.38:078][821]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=18
+[2023.01.11-03.02.38:080][821]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=18
+[2023.01.11-03.02.38:080][821]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=18
+[2023.01.11-03.02.38:080][821]LogInit: FAudioDevice initialized.
+[2023.01.11-03.02.38:080][821]LogAudio: Display: Audio Device (ID: 18) registered with world 'Main'.
+[2023.01.11-03.02.38:083][821]LogLoad: Game class is 'BP_BBCircleGameMode_C'
+[2023.01.11-03.02.38:084][821]LogWorld: Bringing World /Game/Map/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2023.01.11-12.02.38
+[2023.01.11-03.02.38:084][821]LogWorld: Bringing up level for play took: 0.000602
+[2023.01.11-03.02.38:086][821]LogOnline: OSS: Created online subsystem instance for: :Context_25
+[2023.01.11-03.02.38:088][821]LogOSC: Display: OSCServer 'OSCServer__QAKRkMfPkF9NVmmJkYWDw' Listening: 0.0.0.0:50000.
+[2023.01.11-03.02.38:089][821]PIE: サーバーにログインしました
+[2023.01.11-03.02.38:089][821]PIE: PIE合計開始時間 0.079 秒。
+[2023.01.11-03.02.41:076][130]Cmd: MainFrame.ToggleFullscreen
+[2023.01.11-03.02.41:267][130]LogViewport: Scene viewport resized to 2472x1237, mode WindowedFullscreen.
+[2023.01.11-03.02.41:425][137]Cmd: MainFrame.ToggleFullscreen
+[2023.01.11-03.02.41:599][137]LogViewport: Scene viewport resized to 2477x1210, mode Windowed.
+[2023.01.11-03.02.44:418][455]Cmd: LevelEditor.ToggleImmersive
+[2023.01.11-03.02.44:434][455]LogViewport: Scene viewport resized to 1772x602, mode Windowed.
+[2023.01.11-03.02.44:452][455]LogViewport: Scene viewport resized to 699x602, mode Windowed.
+[2023.01.11-03.02.44:458][455]LogViewport: Scene viewport resized to 699x602, mode Windowed.
+[2023.01.11-03.02.44:467][455]LogViewport: Scene viewport resized to 2950x1523, mode Windowed.
+[2023.01.11-03.02.44:477][456]LogViewport: Scene viewport resized to 3580x1940, mode Windowed.
+[2023.01.11-03.02.44:498][457]LogViewport: Scene viewport resized to 3726x2036, mode Windowed.
+[2023.01.11-03.02.44:520][458]LogViewport: Scene viewport resized to 3809x2091, mode Windowed.
+[2023.01.11-03.02.44:540][459]LogViewport: Scene viewport resized to 3839x2111, mode Windowed.
+[2023.01.11-03.02.44:558][460]LogViewport: Scene viewport resized to 3845x2115, mode Windowed.
+[2023.01.11-03.02.45:063][520]Cmd: MainFrame.ToggleFullscreen
+[2023.01.11-03.02.45:235][520]LogViewport: Scene viewport resized to 3840x2160, mode WindowedFullscreen.
+[2023.01.11-03.02.50:059][ 83]LogBlueprintUserMessages: [BP_OscOneCursorReceiver_C_1] ad
+[2023.01.11-03.02.50:684][158]LogBlueprintUserMessages: [BP_OscOneCursorReceiver_C_1] remove
+[2023.01.11-03.02.54:633][632]LogBlueprintUserMessages: [BP_OscOneCursorReceiver_C_1] ad
+[2023.01.11-03.02.55:550][742]LogBlueprintUserMessages: [BP_OscOneCursorReceiver_C_1] remove
+[2023.01.11-03.02.56:374][840]LogBlueprintUserMessages: [BP_OscOneCursorReceiver_C_1] ad
+[2023.01.11-03.02.57:524][978]LogBlueprintUserMessages: [BP_OscOneCursorReceiver_C_1] remove
+[2023.01.11-03.02.58:191][ 58]LogBlueprintUserMessages: [BP_OscOneCursorReceiver_C_1] ad
+[2023.01.11-03.02.59:224][182]LogBlueprintUserMessages: [BP_OscOneCursorReceiver_C_1] remove
+[2023.01.11-03.02.59:457][210]LogBlueprintUserMessages: [BP_OscOneCursorReceiver_C_1] ad
+[2023.01.11-03.03.05:266][907]LogBlueprintUserMessages: [BP_OscOneCursorReceiver_C_1] remove
+[2023.01.11-03.03.06:336][ 35]LogBlueprintUserMessages: [BP_OscOneCursorReceiver_C_1] ad
+[2023.01.11-03.03.07:344][156]LogBlueprintUserMessages: [BP_OscOneCursorReceiver_C_1] remove
+[2023.01.11-03.03.08:119][249]LogBlueprintUserMessages: [BP_OscOneCursorReceiver_C_1] ad
+[2023.01.11-03.03.09:252][385]LogBlueprintUserMessages: [BP_OscOneCursorReceiver_C_1] remove
+[2023.01.11-03.03.09:844][456]LogBlueprintUserMessages: [BP_OscOneCursorReceiver_C_1] ad
+[2023.01.11-03.03.10:444][528]LogBlueprintUserMessages: [BP_OscOneCursorReceiver_C_1] remove
+[2023.01.11-03.03.10:952][589]LogBlueprintUserMessages: [BP_OscOneCursorReceiver_C_1] ad
+[2023.01.11-03.03.11:511][656]LogBlueprintUserMessages: [BP_OscOneCursorReceiver_C_1] remove
+[2023.01.11-03.03.11:973][707]LogBlueprintUserMessages: [BP_OscOneCursorReceiver_C_1] ad
+[2023.01.11-03.03.12:506][771]LogBlueprintUserMessages: [BP_OscOneCursorReceiver_C_1] remove
+[2023.01.11-03.03.18:915][532]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.11-03.03.18:915][532]LogWorld: BeginTearingDown for /Game/Map/UEDPIE_0_Main
+[2023.01.11-03.03.18:915][532]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2023.01.11-03.03.18:915][532]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.11-03.03.18:924][532]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.01.11-03.03.18:928][532]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.11-03.03.19:036][532]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.11-03.03.19:036][532]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2023.01.11-03.03.19:037][532]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2023.01.11-03.03.19:043][532]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2023.01.11-03.03.19:085][533]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2023.01.11-03.03.19:089][533]LogViewport: Scene viewport resized to 951x535, mode WindowedFullscreen.
+[2023.01.11-03.03.20:619][691]LogViewport: Scene viewport resized to 1768x615, mode WindowedFullscreen.
+[2023.01.11-03.03.20:635][691]LogViewport: Scene viewport resized to 698x615, mode WindowedFullscreen.
+[2023.01.11-03.03.20:643][691]LogViewport: Scene viewport resized to 698x615, mode WindowedFullscreen.
+[2023.01.11-03.03.20:690][691]LogViewport: Scene viewport resized to 3444x1884, mode WindowedFullscreen.
+[2023.01.11-03.03.20:714][692]LogViewport: Scene viewport resized to 2593x1291, mode WindowedFullscreen.
+[2023.01.11-03.03.20:763][693]LogViewport: Scene viewport resized to 2488x1218, mode WindowedFullscreen.
+[2023.01.11-03.03.20:787][693]LogViewport: Scene viewport resized to 905x509, mode WindowedFullscreen.
+[2023.01.11-03.03.20:820][694]LogViewport: Scene viewport resized to 2477x1210, mode WindowedFullscreen.
+[2023.01.11-03.03.20:839][694]LogViewport: Scene viewport resized to 854x480, mode WindowedFullscreen.
+[2023.01.11-03.03.20:883][695]LogViewport: Scene viewport resized to 2472x1237, mode WindowedFullscreen.
+[2023.01.11-03.03.20:901][695]LogViewport: Scene viewport resized to 848x477, mode WindowedFullscreen.
+[2023.01.11-03.03.20:929][696]LogViewport: Scene viewport resized to 867x488, mode WindowedFullscreen.
+[2023.01.11-03.03.28:215][326]LogContentBrowser: Deferred new asset folder creation: 新規フォルダ
+[2023.01.11-03.03.28:221][326]LogContentBrowser: Creating deferred item: 新規フォルダ
+[2023.01.11-03.03.28:235][327]LogContentBrowser: Renaming the item being created (Deferred Item: 新規フォルダ).
+[2023.01.11-03.03.59:541][621]LogContentBrowser: Attempting asset rename: 新規フォルダ -> UI
+[2023.01.11-03.03.59:542][621]LogContentBrowser: End creating deferred item 新規フォルダ
+[2023.01.11-03.04.06:237][175]LogEditorClassViewer: Warning: Class /Script/InteractiveToolsFramework.GizmoActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.01.11-03.04.06:237][175]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewGeometryActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.01.11-03.04.06:237][175]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewMeshActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.01.11-03.04.09:037][175]LogSlate: Window '新しいウィジェットブループリントのルートウィジェットを選択' being destroyed
+[2023.01.11-03.04.09:045][175]LogContentBrowser: Deferred new asset file creation: NewWidgetBlueprint
+[2023.01.11-03.04.09:050][175]LogContentBrowser: Creating deferred item: NewWidgetBlueprint
+[2023.01.11-03.04.09:063][175]LogAutomationController: Ignoring very large delta of 2.88 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2023.01.11-03.04.09:077][177]LogContentBrowser: Renaming the item being created (Deferred Item: NewWidgetBlueprint).
+[2023.01.11-03.04.20:541][342]LogContentBrowser: Attempting asset rename: NewWidgetBlueprint -> WBP_Score
+[2023.01.11-03.04.20:553][342]LogContentBrowser: End creating deferred item NewWidgetBlueprint
+[2023.01.11-03.04.22:930][564]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UI/WBP_Score.WBP_Score
+[2023.01.11-03.04.22:930][564]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.11-03.04.22:943][564]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.11-03.04.22:949][564]LogSlate: Warning: The command 'UMGEditor.OpenAnimDrawer' has the same default chord as 'EditorViewport.Next' [Ctrl+Shift+スペースバー]
+[2023.01.11-03.04.23:357][564]LogSlateStyle: Warning: スレートウィジェットスタイル 'None' が見つかりません。代わりに FToolbarStyle をデフォルトに使用します。
+[2023.01.11-03.04.23:358][564]LogSlateStyle: Warning: スレートウィジェットスタイル 'None' が見つかりません。代わりに FToolbarStyle をデフォルトに使用します。
+[2023.01.11-03.04.23:482][564]LogSlateStyle: Warning: 「CoreStyle」スタイルからのリソースが存在しません。'SlateColor 'Foreground' が見つかりません'
+[2023.01.11-03.05.19:655][779]LogSlate: Took 0.008232 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2023.01.11-03.06.18:932][112]LogSlate: Window 'カラー ピッカー' being destroyed
+[2023.01.11-03.07.42:195][324]LogSlate: Window 'カラー ピッカー' being destroyed
+[2023.01.11-03.14.22:761][808]BlueprintLog: New page: WBP_Score をコンパイル
+[2023.01.11-03.14.22:887][808]LogUObjectHash: Compacting FUObjectHashTables data took   2.04ms
+[2023.01.11-03.15.07:714][121]BlueprintLog: New page: WBP_Score をコンパイル
+[2023.01.11-03.15.07:802][121]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2023.01.11-03.15.09:418][241]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2023.01.11-03.15.09:424][241]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.01.11-03.15.09:546][241]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2023.01.11-03.15.09:553][241]LogSavePackage: Moving output files for package: /Game/Map/Main
+[2023.01.11-03.15.09:553][241]LogSavePackage: Moving '../../../../../../Users/FurutaniIssei/Documents/GitHub/BigBeautifulCircul/BigBeautifulCircle/Saved/Main16C139164572F3B7B236928E432A5ACC.tmp' to '../../../../../../Users/FurutaniIssei/Documents/GitHub/BigBeautifulCircul/BigBeautifulCircle/Content/Map/Main.umap'
+[2023.01.11-03.15.09:562][241]LogFileHelpers: Saving map 'Main' took 0.069
+[2023.01.11-03.15.09:579][241]LogSavePackage: Moving output files for package: /Game/BP/BP_BBCircleGameMode
+[2023.01.11-03.15.09:579][241]LogSavePackage: Moving '../../../../../../Users/FurutaniIssei/Documents/GitHub/BigBeautifulCircul/BigBeautifulCircle/Saved/BP_BBCircleGameMode1998BF9140BF60D6E65EDCA42870B436.tmp' to '../../../../../../Users/FurutaniIssei/Documents/GitHub/BigBeautifulCircul/BigBeautifulCircle/Content/BP/BP_BBCircleGameMode.uasset'
+[2023.01.11-03.15.09:591][241]LogSavePackage: Moving output files for package: /Game/BP/BP_OscOneCursorReceiver
+[2023.01.11-03.15.09:591][241]LogSavePackage: Moving '../../../../../../Users/FurutaniIssei/Documents/GitHub/BigBeautifulCircul/BigBeautifulCircle/Saved/BP_OscOneCursorReceiverCC82C94D4187009CD8C716A2C06F1FD9.tmp' to '../../../../../../Users/FurutaniIssei/Documents/GitHub/BigBeautifulCircul/BigBeautifulCircle/Content/BP/BP_OscOneCursorReceiver.uasset'
+[2023.01.11-03.15.09:594][241]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/WBP_Score" FILE="../../../../../../Users/FurutaniIssei/Documents/GitHub/BigBeautifulCircul/BigBeautifulCircle/Content/UI/WBP_Score.uasset" SILENT=true
+[2023.01.11-03.15.09:599][241]LogSavePackage: Moving output files for package: /Game/UI/WBP_Score
+[2023.01.11-03.15.09:599][241]LogSavePackage: Moving '../../../../../../Users/FurutaniIssei/Documents/GitHub/BigBeautifulCircul/BigBeautifulCircle/Saved/WBP_ScoreA86FF6BB4F3F546F45A8B1AD91EF2ED6.tmp' to '../../../../../../Users/FurutaniIssei/Documents/GitHub/BigBeautifulCircul/BigBeautifulCircle/Content/UI/WBP_Score.uasset'
+[2023.01.11-03.15.09:605][241]LogFileHelpers: InternalPromptForCheckoutAndSave took 181 ms (total: 1.88 sec)
+[2023.01.11-03.15.09:616][241]AssetCheck: New page: アセット保存：複数のアセット
+[2023.01.11-03.15.09:616][241]LogContentValidation: Display: /Script/Engine.Blueprint /Game/BP/BP_BBCircleGameMode.BP_BBCircleGameMode を検証しています
+[2023.01.11-03.15.09:616][241]LogContentValidation: Display: /Script/Engine.Blueprint /Game/BP/BP_OscOneCursorReceiver.BP_OscOneCursorReceiver を検証しています
+[2023.01.11-03.15.09:616][241]LogContentValidation: Display: /Script/Engine.World /Game/Map/Main.Main を検証しています
+[2023.01.11-03.15.09:616][241]LogContentValidation: Display: /Script/UMGEditor.WidgetBlueprint /Game/UI/WBP_Score.WBP_Score を検証しています
+[2023.01.11-03.15.10:870][333]LogSlate: Window 'WBP_Score' being destroyed
+[2023.01.11-03.15.10:923][333]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2023.01.11-03.15.10:923][333]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.11-03.15.10:931][333]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2023.01.11-03.15.10:931][333]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.11-03.18.00:017][ 30]LogEditorClassViewer: Warning: Class /Script/InteractiveToolsFramework.GizmoActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.01.11-03.18.00:017][ 30]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewGeometryActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.01.11-03.18.00:017][ 30]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewMeshActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.01.11-03.19.22:358][354]LogEditorTransaction: Undo 選択対象を削除します
+[2023.01.11-03.19.22:972][361]LogEditorTransaction: Undo PIEリンクを作成
+[2023.01.11-03.20.32:364][262]BlueprintLog: New page: BP_BBCircleGameMode をコンパイル
+[2023.01.11-03.20.32:472][262]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
+[2023.01.11-03.20.34:822][460]LogDebuggerCommands: Repeating last play command: 選択ビューポート
+[2023.01.11-03.20.34:828][460]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.01.11-03.20.34:828][460]PIE: New page: PIEセッション: Main (2023/01/11 21:20:34)
+[2023.01.11-03.20.34:828][460]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Main
+[2023.01.11-03.20.34:830][460]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002224s)
+[2023.01.11-03.20.34:830][460]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Main.Main to /Game/Map/UEDPIE_0_Main.Main (0.002262s)
+[2023.01.11-03.20.34:831][460]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.11-03.20.34:831][460]LogAIModule: Creating AISystem for world Main
+[2023.01.11-03.20.34:831][460]LogPlayLevel: PIE: World Init took: (0.000756s)
+[2023.01.11-03.20.34:882][460]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2023.01.11-03.20.34:888][460]LogAudio: Display: Creating Audio Device:                 Id: 19, Scope: Unique, Realtime: True
+[2023.01.11-03.20.34:888][460]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.01.11-03.20.34:888][460]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.01.11-03.20.34:888][460]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.01.11-03.20.34:888][460]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.01.11-03.20.34:888][460]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.01.11-03.20.34:888][460]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.01.11-03.20.34:888][460]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.01.11-03.20.34:888][460]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.01.11-03.20.34:888][460]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.01.11-03.20.34:888][460]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.01.11-03.20.34:888][460]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.01.11-03.20.34:890][460]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.01.11-03.20.34:909][460]LogAudioMixer: Display: Using Audio Hardware Device SHARP HDMI (NVIDIA High Definition Audio)
+[2023.01.11-03.20.34:909][460]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.01.11-03.20.34:909][460]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.01.11-03.20.34:909][460]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.01.11-03.20.34:910][460]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=19
+[2023.01.11-03.20.34:910][460]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=19
+[2023.01.11-03.20.34:912][460]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=19
+[2023.01.11-03.20.34:912][460]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=19
+[2023.01.11-03.20.34:912][460]LogInit: FAudioDevice initialized.
+[2023.01.11-03.20.34:912][460]LogAudio: Display: Audio Device (ID: 19) registered with world 'Main'.
+[2023.01.11-03.20.34:915][460]LogLoad: Game class is 'BP_BBCircleGameMode_C'
+[2023.01.11-03.20.34:916][460]LogWorld: Bringing World /Game/Map/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2023.01.11-12.20.34
+[2023.01.11-03.20.34:916][460]LogWorld: Bringing up level for play took: 0.000590
+[2023.01.11-03.20.34:918][460]LogOnline: OSS: Created online subsystem instance for: :Context_28
+[2023.01.11-03.20.34:920][460]LogOSC: Display: OSCServer 'OSCServer_NuqFTk1XSwZrSNyMQKkRCg' Listening: 0.0.0.0:50000.
+[2023.01.11-03.20.34:921][460]PIE: サーバーにログインしました
+[2023.01.11-03.20.34:922][460]PIE: PIE合計開始時間 0.094 秒。
+[2023.01.11-03.20.39:569][986]LogBlueprintUserMessages: [BP_OscOneCursorReceiver_C_1] ad
+[2023.01.11-03.20.44:603][590]LogBlueprintUserMessages: [BP_OscOneCursorReceiver_C_1] remove
+[2023.01.11-03.20.45:655][716]LogBlueprintUserMessages: [BP_OscOneCursorReceiver_C_1] ad
+[2023.01.11-03.20.50:357][280]LogBlueprintUserMessages: [BP_OscOneCursorReceiver_C_1] remove
+[2023.01.11-03.20.51:951][471]LogBlueprintUserMessages: [BP_OscOneCursorReceiver_C_1] ad
+[2023.01.11-03.20.58:503][256]LogBlueprintUserMessages: [BP_OscOneCursorReceiver_C_1] remove
+[2023.01.11-03.20.58:510][257]LogScript: Warning: Script Msg: The widget 'WBP_Score_C_0' was already added to the screen.
+[2023.01.11-03.20.58:510][257]LogScript: Warning: Last function called:
+	/Game/BP/BP_BBCircleGameMode.BP_BBCircleGameMode_C.ExecuteUbergraph_BP_BBCircleGameMode
+
+[2023.01.11-03.21.05:695][111]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.11-03.21.05:695][111]LogWorld: BeginTearingDown for /Game/Map/UEDPIE_0_Main
+[2023.01.11-03.21.05:695][111]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2023.01.11-03.21.05:695][111]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.11-03.21.05:699][111]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.01.11-03.21.05:704][111]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.11-03.21.05:833][111]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.01.11-03.21.05:834][111]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19
+[2023.01.11-03.21.05:835][111]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19
+[2023.01.11-03.21.05:839][111]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.11-03.21.05:844][111]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2023.01.11-03.21.05:897][112]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2023.01.11-03.21.05:900][112]LogViewport: Scene viewport resized to 867x488, mode WindowedFullscreen.
+[2023.01.11-03.23.48:459][988]BlueprintLog: New page: BP_BBCircleGameMode をコンパイル
+[2023.01.11-03.23.48:556][988]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2023.01.11-03.23.49:010][ 15]BlueprintLog: New page: BP_BBCircleGameMode をコンパイル
+[2023.01.11-03.23.49:106][ 15]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2023.01.11-03.23.53:341][475]LogDebuggerCommands: Repeating last play command: 選択ビューポート
+[2023.01.11-03.23.53:345][475]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.01.11-03.23.53:345][475]PIE: New page: PIEセッション: Main (2023/01/11 21:23:53)
+[2023.01.11-03.23.53:345][475]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Main
+[2023.01.11-03.23.53:347][475]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001945s)
+[2023.01.11-03.23.53:347][475]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Main.Main to /Game/Map/UEDPIE_0_Main.Main (0.001972s)
+[2023.01.11-03.23.53:347][475]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.11-03.23.53:348][475]LogAIModule: Creating AISystem for world Main
+[2023.01.11-03.23.53:348][475]LogPlayLevel: PIE: World Init took: (0.000604s)
+[2023.01.11-03.23.53:397][475]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2023.01.11-03.23.53:399][475]LogAudio: Display: Creating Audio Device:                 Id: 20, Scope: Unique, Realtime: True
+[2023.01.11-03.23.53:399][475]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.01.11-03.23.53:399][475]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.01.11-03.23.53:399][475]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.01.11-03.23.53:399][475]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.01.11-03.23.53:399][475]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.01.11-03.23.53:399][475]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.01.11-03.23.53:399][475]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.01.11-03.23.53:399][475]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.01.11-03.23.53:400][475]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.01.11-03.23.53:400][475]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.01.11-03.23.53:400][475]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.01.11-03.23.53:402][475]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.01.11-03.23.53:419][475]LogAudioMixer: Display: Using Audio Hardware Device SHARP HDMI (NVIDIA High Definition Audio)
+[2023.01.11-03.23.53:419][475]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.01.11-03.23.53:419][475]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.01.11-03.23.53:419][475]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.01.11-03.23.53:420][475]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=20
+[2023.01.11-03.23.53:420][475]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=20
+[2023.01.11-03.23.53:421][475]LogInit: FAudioDevice initialized.
+[2023.01.11-03.23.53:422][475]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=20
+[2023.01.11-03.23.53:422][475]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=20
+[2023.01.11-03.23.53:422][475]LogAudio: Display: Audio Device (ID: 20) registered with world 'Main'.
+[2023.01.11-03.23.53:426][475]LogLoad: Game class is 'BP_BBCircleGameMode_C'
+[2023.01.11-03.23.53:426][475]LogWorld: Bringing World /Game/Map/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2023.01.11-12.23.53
+[2023.01.11-03.23.53:426][475]LogWorld: Bringing up level for play took: 0.000599
+[2023.01.11-03.23.53:428][475]LogOnline: OSS: Created online subsystem instance for: :Context_29
+[2023.01.11-03.23.53:430][475]LogOSC: Display: OSCServer 'OSCServer_wcNYaUh32soZ3FmlfBmxdQ' Listening: 0.0.0.0:50000.
+[2023.01.11-03.23.53:432][475]PIE: サーバーにログインしました
+[2023.01.11-03.23.53:432][475]PIE: PIE合計開始時間 0.087 秒。
+[2023.01.11-03.23.54:948][642]Cmd: LevelEditor.ToggleImmersive
+[2023.01.11-03.23.54:965][642]LogViewport: Scene viewport resized to 2951x1560, mode WindowedFullscreen.
+[2023.01.11-03.23.54:977][643]LogViewport: Scene viewport resized to 3183x1717, mode WindowedFullscreen.
+[2023.01.11-03.23.54:995][644]LogViewport: Scene viewport resized to 3446x1894, mode WindowedFullscreen.
+[2023.01.11-03.23.55:014][645]LogViewport: Scene viewport resized to 3629x2018, mode WindowedFullscreen.
+[2023.01.11-03.23.55:032][646]LogViewport: Scene viewport resized to 3740x2093, mode WindowedFullscreen.
+[2023.01.11-03.23.55:050][647]LogViewport: Scene viewport resized to 3805x2136, mode WindowedFullscreen.
+[2023.01.11-03.23.55:068][648]LogViewport: Scene viewport resized to 3831x2154, mode WindowedFullscreen.
+[2023.01.11-03.23.55:084][649]LogViewport: Scene viewport resized to 3840x2160, mode WindowedFullscreen.
+[2023.01.11-03.23.59:363][162]LogBlueprintUserMessages: [BP_OscOneCursorReceiver_C_1] ad
+[2023.01.11-03.24.05:461][892]LogBlueprintUserMessages: [BP_OscOneCursorReceiver_C_1] remove
+[2023.01.11-03.24.06:655][ 35]LogBlueprintUserMessages: [BP_OscOneCursorReceiver_C_1] ad
+[2023.01.11-03.24.12:140][693]LogBlueprintUserMessages: [BP_OscOneCursorReceiver_C_1] remove
+[2023.01.11-03.24.17:045][276]LogBlueprintUserMessages: [BP_OscOneCursorReceiver_C_1] ad
+[2023.01.11-03.24.21:496][810]LogBlueprintUserMessages: [BP_OscOneCursorReceiver_C_1] remove
+[2023.01.11-03.24.35:751][520]Cmd: LevelEditor.ToggleImmersive
+[2023.01.11-03.24.35:768][520]LogViewport: Scene viewport resized to 3456x1901, mode WindowedFullscreen.
+[2023.01.11-03.24.35:780][521]LogViewport: Scene viewport resized to 3264x1771, mode WindowedFullscreen.
+[2023.01.11-03.24.35:801][522]LogViewport: Scene viewport resized to 3001x1594, mode WindowedFullscreen.
+[2023.01.11-03.24.35:819][523]LogViewport: Scene viewport resized to 2829x1477, mode WindowedFullscreen.
+[2023.01.11-03.24.35:838][524]LogViewport: Scene viewport resized to 2695x1387, mode WindowedFullscreen.
+[2023.01.11-03.24.35:856][525]LogViewport: Scene viewport resized to 2602x1324, mode WindowedFullscreen.
+[2023.01.11-03.24.35:874][526]LogViewport: Scene viewport resized to 2541x1283, mode WindowedFullscreen.
+[2023.01.11-03.24.35:890][527]LogViewport: Scene viewport resized to 2503x1258, mode WindowedFullscreen.
+[2023.01.11-03.24.35:906][528]LogViewport: Scene viewport resized to 2484x1245, mode WindowedFullscreen.
+[2023.01.11-03.24.35:925][529]LogViewport: Scene viewport resized to 2474x1238, mode WindowedFullscreen.
+[2023.01.11-03.24.35:940][530]LogViewport: Scene viewport resized to 2473x1237, mode WindowedFullscreen.
+[2023.01.11-03.24.35:957][531]LogViewport: Scene viewport resized to 2472x1237, mode WindowedFullscreen.
+[2023.01.11-03.25.09:257][522]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.11-03.25.09:257][522]LogWorld: BeginTearingDown for /Game/Map/UEDPIE_0_Main
+[2023.01.11-03.25.09:257][522]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2023.01.11-03.25.09:257][522]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.11-03.25.09:260][522]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.01.11-03.25.09:266][522]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.11-03.25.09:418][522]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.11-03.25.09:419][522]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20
+[2023.01.11-03.25.09:420][522]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20
+[2023.01.11-03.25.09:426][522]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2023.01.11-03.25.09:478][523]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2023.01.11-03.25.09:482][523]LogViewport: Scene viewport resized to 867x488, mode WindowedFullscreen.
+[2023.01.11-03.26.56:353][532]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2023.01.11-03.26.56:357][532]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Map/Main' took 0.055
+[2023.01.11-03.26.56:357][532]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BP/BP_BBCircleGameMode] ([2] browsable assets)...
+[2023.01.11-03.26.56:357][532]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP/BP_BBCircleGameMode]
+[2023.01.11-03.26.56:374][532]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/BP/BP_BBCircleGameMode_Auto5
+[2023.01.11-03.26.56:375][532]LogSavePackage: Moving '../../../../../../Users/FurutaniIssei/Documents/GitHub/BigBeautifulCircul/BigBeautifulCircle/Saved/BP_BBCircleGameMode_Auto5BD9F35CD49AE218D0BB024880474B0AD.tmp' to '../../../../../../Users/FurutaniIssei/Documents/GitHub/BigBeautifulCircul/BigBeautifulCircle/Saved/Autosaves/Game/BP/BP_BBCircleGameMode_Auto5.uasset'
+[2023.01.11-03.26.56:381][532]LogFileHelpers: Auto-saving content packages took 0.025
+[2023.01.11-03.59.15:895][ 29]LogDerivedDataCache: C:/Users/FurutaniIssei/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:10.070 and deleted 0 files with total size 0 MiB. Scanned 5857 files in 5802 folders with total size 360 MiB.
+[2023.01.11-04.48.41:503][629]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_5.1/Engine/Build/BatchFiles/Build.bat -Mode=QueryTargets -Output="C:/Program Files/Epic Games/UE_5.1/Engine/Intermediate/TargetInfo.json"]
+[2023.01.11-04.48.41:622][629]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_5.1/Engine/Build/BatchFiles/Build.bat -Mode=QueryTargets -Output="C:/Program Files/Epic Games/UE_5.1/Engine/Intermediate/TargetInfo.json"]
+[2023.01.11-04.48.41:726][629]LogDesktopPlatform: Warning: Unable to read target info for engine
+[2023.01.11-04.49.31:814][216]BlueprintLog: New page: BP_BBCircleGameMode をコンパイル
+[2023.01.11-04.49.31:913][216]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2023.01.11-04.49.32:187][239]BlueprintLog: New page: BP_BBCircleGameMode をコンパイル
+[2023.01.11-04.49.32:282][239]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2023.01.11-04.49.33:663][355]LogDebuggerCommands: Repeating last play command: 選択ビューポート
+[2023.01.11-04.49.33:668][355]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.01.11-04.49.33:668][355]PIE: New page: PIEセッション: Main (2023/01/11 22:49:33)
+[2023.01.11-04.49.33:696][355]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Main
+[2023.01.11-04.49.33:698][355]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002105s)
+[2023.01.11-04.49.33:698][355]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Main.Main to /Game/Map/UEDPIE_0_Main.Main (0.002138s)
+[2023.01.11-04.49.33:699][355]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.11-04.49.33:699][355]LogAIModule: Creating AISystem for world Main
+[2023.01.11-04.49.33:699][355]LogPlayLevel: PIE: World Init took: (0.000652s)
+[2023.01.11-04.49.33:748][355]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2023.01.11-04.49.33:750][355]LogAudio: Display: Creating Audio Device:                 Id: 21, Scope: Unique, Realtime: True
+[2023.01.11-04.49.33:750][355]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.01.11-04.49.33:750][355]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.01.11-04.49.33:750][355]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.01.11-04.49.33:750][355]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.01.11-04.49.33:750][355]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.01.11-04.49.33:750][355]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.01.11-04.49.33:750][355]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.01.11-04.49.33:750][355]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.01.11-04.49.33:750][355]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.01.11-04.49.33:750][355]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.01.11-04.49.33:750][355]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.01.11-04.49.33:752][355]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.01.11-04.49.33:770][355]LogAudioMixer: Display: Using Audio Hardware Device SHARP HDMI (NVIDIA High Definition Audio)
+[2023.01.11-04.49.33:771][355]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.01.11-04.49.33:771][355]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.01.11-04.49.33:771][355]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.01.11-04.49.33:772][355]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=21
+[2023.01.11-04.49.33:772][355]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=21
+[2023.01.11-04.49.33:773][355]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=21
+[2023.01.11-04.49.33:773][355]LogInit: FAudioDevice initialized.
+[2023.01.11-04.49.33:773][355]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=21
+[2023.01.11-04.49.33:773][355]LogAudio: Display: Audio Device (ID: 21) registered with world 'Main'.
+[2023.01.11-04.49.33:776][355]LogLoad: Game class is 'BP_BBCircleGameMode_C'
+[2023.01.11-04.49.33:777][355]LogWorld: Bringing World /Game/Map/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2023.01.11-13.49.33
+[2023.01.11-04.49.33:777][355]LogWorld: Bringing up level for play took: 0.000616
+[2023.01.11-04.49.33:779][355]LogOnline: OSS: Created online subsystem instance for: :Context_30
+[2023.01.11-04.49.33:781][355]LogOSC: Display: OSCServer 'OSCServer_88fXj09WZFoFfk6YJMzy9Q' Listening: 0.0.0.0:50000.
+[2023.01.11-04.49.33:782][355]PIE: サーバーにログインしました
+[2023.01.11-04.49.33:782][355]PIE: PIE合計開始時間 0.115 秒。
+[2023.01.11-04.49.37:467][767]LogBlueprintUserMessages: [BP_OscOneCursorReceiver_C_1] ad
+[2023.01.11-04.49.42:449][359]LogBlueprintUserMessages: [BP_OscOneCursorReceiver_C_1] remove
+[2023.01.11-04.49.43:577][494]LogBlueprintUserMessages: [BP_OscOneCursorReceiver_C_1] ad
+[2023.01.11-04.49.47:086][915]LogBlueprintUserMessages: [BP_OscOneCursorReceiver_C_1] remove
+[2023.01.11-04.49.48:860][128]LogBlueprintUserMessages: [BP_OscOneCursorReceiver_C_1] ad
+[2023.01.11-04.49.52:211][530]LogBlueprintUserMessages: [BP_OscOneCursorReceiver_C_1] remove
+[2023.01.11-04.49.53:195][648]LogBlueprintUserMessages: [BP_OscOneCursorReceiver_C_1] ad
+[2023.01.11-04.49.56:554][ 51]LogBlueprintUserMessages: [BP_OscOneCursorReceiver_C_1] remove
+[2023.01.11-04.49.57:488][163]LogBlueprintUserMessages: [BP_OscOneCursorReceiver_C_1] ad
+[2023.01.11-04.50.01:656][663]LogBlueprintUserMessages: [BP_OscOneCursorReceiver_C_1] remove
+[2023.01.11-04.50.03:474][881]LogBlueprintUserMessages: [BP_OscOneCursorReceiver_C_1] ad
+[2023.01.11-04.50.09:669][623]LogBlueprintUserMessages: [BP_OscOneCursorReceiver_C_1] remove
+[2023.01.11-04.50.11:199][806]LogBlueprintUserMessages: [BP_OscOneCursorReceiver_C_1] ad
+[2023.01.11-04.50.19:200][766]LogBlueprintUserMessages: [BP_OscOneCursorReceiver_C_1] remove
+[2023.01.11-04.50.24:287][373]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.11-04.50.24:287][373]LogWorld: BeginTearingDown for /Game/Map/UEDPIE_0_Main
+[2023.01.11-04.50.24:287][373]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2023.01.11-04.50.24:287][373]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.11-04.50.24:291][373]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.01.11-04.50.24:297][373]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.11-04.50.24:351][373]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.01.11-04.50.24:424][373]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
+[2023.01.11-04.50.24:426][373]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
+[2023.01.11-04.50.24:430][373]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.11-04.50.24:441][373]LogUObjectHash: Compacting FUObjectHashTables data took   1.94ms
+[2023.01.11-04.50.24:496][374]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2023.01.11-04.50.24:500][374]LogViewport: Scene viewport resized to 867x488, mode WindowedFullscreen.
+[2023.01.11-04.50.49:087][198]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2023.01.11-04.50.49:092][198]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.01.11-04.50.49:213][198]LogSavePackage: Moving output files for package: /Game/BP/BP_BBCircleGameMode
+[2023.01.11-04.50.49:213][198]LogSavePackage: Moving '../../../../../../Users/FurutaniIssei/Documents/GitHub/BigBeautifulCircul/BigBeautifulCircle/Saved/BP_BBCircleGameMode617A5CDC4D4C0C1CA6D191A3747D100E.tmp' to '../../../../../../Users/FurutaniIssei/Documents/GitHub/BigBeautifulCircul/BigBeautifulCircle/Content/BP/BP_BBCircleGameMode.uasset'
+[2023.01.11-04.50.49:218][198]LogFileHelpers: InternalPromptForCheckoutAndSave took 125 ms (total: 2.00 sec)
+[2023.01.11-04.50.49:227][198]AssetCheck: New page: アセット保存：BP_BBCircleGameMode
+[2023.01.11-04.50.49:227][198]LogContentValidation: Display: /Script/Engine.Blueprint /Game/BP/BP_BBCircleGameMode.BP_BBCircleGameMode を検証しています
+[2023.01.11-04.50.57:941][136]LogDebuggerCommands: Repeating last play command: 選択ビューポート
+[2023.01.11-04.50.57:946][136]BlueprintLog: New page: プレイ前に自動再コンパイル
+[2023.01.11-04.50.57:946][136]LogPlayLevel: [PlayLevel] Compiling BP_BBCircleGameMode before play...
+[2023.01.11-04.50.58:048][136]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2023.01.11-04.50.58:055][136]LogPlayLevel: PlayLevel: Blueprint regeneration took 109 ms (1 blueprints)
+[2023.01.11-04.50.58:055][136]PIE: New page: PIEセッション: Main (2023/01/11 22:50:58)
+[2023.01.11-04.50.58:055][136]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Main
+[2023.01.11-04.50.58:057][136]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001747s)
+[2023.01.11-04.50.58:057][136]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Main.Main to /Game/Map/UEDPIE_0_Main.Main (0.001771s)
+[2023.01.11-04.50.58:057][136]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.11-04.50.58:058][136]LogAIModule: Creating AISystem for world Main
+[2023.01.11-04.50.58:058][136]LogPlayLevel: PIE: World Init took: (0.000590s)
+[2023.01.11-04.50.58:102][136]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2023.01.11-04.50.58:103][136]LogAudio: Display: Creating Audio Device:                 Id: 22, Scope: Unique, Realtime: True
+[2023.01.11-04.50.58:103][136]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.01.11-04.50.58:103][136]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.01.11-04.50.58:103][136]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.01.11-04.50.58:103][136]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.01.11-04.50.58:103][136]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.01.11-04.50.58:103][136]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.01.11-04.50.58:103][136]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.01.11-04.50.58:103][136]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.01.11-04.50.58:104][136]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.01.11-04.50.58:104][136]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.01.11-04.50.58:104][136]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.01.11-04.50.58:106][136]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.01.11-04.50.58:122][136]LogAudioMixer: Display: Using Audio Hardware Device SHARP HDMI (NVIDIA High Definition Audio)
+[2023.01.11-04.50.58:122][136]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.01.11-04.50.58:122][136]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.01.11-04.50.58:122][136]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.01.11-04.50.58:123][136]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=22
+[2023.01.11-04.50.58:123][136]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=22
+[2023.01.11-04.50.58:124][136]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=22
+[2023.01.11-04.50.58:124][136]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=22
+[2023.01.11-04.50.58:124][136]LogInit: FAudioDevice initialized.
+[2023.01.11-04.50.58:124][136]LogAudio: Display: Audio Device (ID: 22) registered with world 'Main'.
+[2023.01.11-04.50.58:128][136]LogLoad: Game class is 'BP_BBCircleGameMode_C'
+[2023.01.11-04.50.58:129][136]LogWorld: Bringing World /Game/Map/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2023.01.11-13.50.58
+[2023.01.11-04.50.58:129][136]LogWorld: Bringing up level for play took: 0.000573
+[2023.01.11-04.50.58:130][136]LogOnline: OSS: Created online subsystem instance for: :Context_31
+[2023.01.11-04.50.58:132][136]LogOSC: Display: OSCServer 'OSCServer_-Magskzehr9BbhKM_ldvrg' Listening: 0.0.0.0:50000.
+[2023.01.11-04.50.58:133][136]PIE: サーバーにログインしました
+[2023.01.11-04.50.58:134][136]PIE: PIE合計開始時間 0.189 秒。
+[2023.01.11-04.51.01:027][447]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.11-04.51.01:027][447]LogWorld: BeginTearingDown for /Game/Map/UEDPIE_0_Main
+[2023.01.11-04.51.01:027][447]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2023.01.11-04.51.01:027][447]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.11-04.51.01:030][447]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.01.11-04.51.01:035][447]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.11-04.51.01:141][447]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.11-04.51.01:141][447]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=22
+[2023.01.11-04.51.01:142][447]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=22
+[2023.01.11-04.51.01:148][447]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2023.01.11-04.51.01:200][448]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2023.01.11-04.51.01:204][448]LogViewport: Scene viewport resized to 867x488, mode WindowedFullscreen.
+[2023.01.11-04.51.11:025][551]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2023.01.11-04.51.11:032][551]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.01.11-04.51.11:146][551]LogSavePackage: Moving output files for package: /Game/BP/BP_BBCircleGameMode
+[2023.01.11-04.51.11:147][551]LogSavePackage: Moving '../../../../../../Users/FurutaniIssei/Documents/GitHub/BigBeautifulCircul/BigBeautifulCircle/Saved/BP_BBCircleGameMode3A6113E64D068CB322E092AF406503FD.tmp' to '../../../../../../Users/FurutaniIssei/Documents/GitHub/BigBeautifulCircul/BigBeautifulCircle/Content/BP/BP_BBCircleGameMode.uasset'
+[2023.01.11-04.51.11:151][551]LogFileHelpers: InternalPromptForCheckoutAndSave took 119 ms (total: 2.12 sec)
+[2023.01.11-04.51.11:158][551]AssetCheck: New page: アセット保存：BP_BBCircleGameMode
+[2023.01.11-04.51.11:158][551]LogContentValidation: Display: /Script/Engine.Blueprint /Game/BP/BP_BBCircleGameMode.BP_BBCircleGameMode を検証しています
+[2023.01.11-04.51.12:214][670]BlueprintLog: New page: BP_BBCircleGameMode をコンパイル
+[2023.01.11-04.51.12:308][670]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2023.01.11-04.51.14:365][859]LogDebuggerCommands: Repeating last play command: 選択ビューポート
+[2023.01.11-04.51.14:369][859]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.01.11-04.51.14:369][859]PIE: New page: PIEセッション: Main (2023/01/11 22:51:14)
+[2023.01.11-04.51.14:369][859]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Main
+[2023.01.11-04.51.14:371][859]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001905s)
+[2023.01.11-04.51.14:371][859]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Main.Main to /Game/Map/UEDPIE_0_Main.Main (0.001931s)
+[2023.01.11-04.51.14:371][859]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.11-04.51.14:372][859]LogAIModule: Creating AISystem for world Main
+[2023.01.11-04.51.14:372][859]LogPlayLevel: PIE: World Init took: (0.000591s)
+[2023.01.11-04.51.14:420][859]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2023.01.11-04.51.14:423][859]LogAudio: Display: Creating Audio Device:                 Id: 23, Scope: Unique, Realtime: True
+[2023.01.11-04.51.14:423][859]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.01.11-04.51.14:423][859]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.01.11-04.51.14:423][859]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.01.11-04.51.14:423][859]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.01.11-04.51.14:423][859]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.01.11-04.51.14:423][859]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.01.11-04.51.14:423][859]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.01.11-04.51.14:423][859]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.01.11-04.51.14:423][859]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.01.11-04.51.14:423][859]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.01.11-04.51.14:423][859]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.01.11-04.51.14:425][859]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.01.11-04.51.14:441][859]LogAudioMixer: Display: Using Audio Hardware Device SHARP HDMI (NVIDIA High Definition Audio)
+[2023.01.11-04.51.14:441][859]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.01.11-04.51.14:441][859]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.01.11-04.51.14:442][859]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.01.11-04.51.14:442][859]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=23
+[2023.01.11-04.51.14:442][859]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=23
+[2023.01.11-04.51.14:444][859]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=23
+[2023.01.11-04.51.14:444][859]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=23
+[2023.01.11-04.51.14:444][859]LogInit: FAudioDevice initialized.
+[2023.01.11-04.51.14:444][859]LogAudio: Display: Audio Device (ID: 23) registered with world 'Main'.
+[2023.01.11-04.51.14:448][859]LogLoad: Game class is 'BP_BBCircleGameMode_C'
+[2023.01.11-04.51.14:448][859]LogWorld: Bringing World /Game/Map/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2023.01.11-13.51.14
+[2023.01.11-04.51.14:448][859]LogWorld: Bringing up level for play took: 0.000582
+[2023.01.11-04.51.14:450][859]LogOnline: OSS: Created online subsystem instance for: :Context_32
+[2023.01.11-04.51.14:452][859]LogOSC: Display: OSCServer 'OSCServer_VLU-NUX_vTOWxe6qCjQu3A' Listening: 0.0.0.0:50000.
+[2023.01.11-04.51.14:453][859]PIE: サーバーにログインしました
+[2023.01.11-04.51.14:454][859]PIE: PIE合計開始時間 0.085 秒。
+[2023.01.11-04.51.15:826][  9]Cmd: LevelEditor.ToggleImmersive
+[2023.01.11-04.51.15:842][  9]LogViewport: Scene viewport resized to 2950x1559, mode WindowedFullscreen.
+[2023.01.11-04.51.15:853][ 10]LogViewport: Scene viewport resized to 3166x1705, mode WindowedFullscreen.
+[2023.01.11-04.51.15:871][ 11]LogViewport: Scene viewport resized to 3430x1883, mode WindowedFullscreen.
+[2023.01.11-04.51.15:890][ 12]LogViewport: Scene viewport resized to 3612x2006, mode WindowedFullscreen.
+[2023.01.11-04.51.15:907][ 13]LogViewport: Scene viewport resized to 3730x2085, mode WindowedFullscreen.
+[2023.01.11-04.51.15:926][ 14]LogViewport: Scene viewport resized to 3799x2132, mode WindowedFullscreen.
+[2023.01.11-04.51.15:943][ 15]LogViewport: Scene viewport resized to 3830x2153, mode WindowedFullscreen.
+[2023.01.11-04.51.15:960][ 16]LogViewport: Scene viewport resized to 3839x2160, mode WindowedFullscreen.
+[2023.01.11-04.51.15:976][ 17]LogViewport: Scene viewport resized to 3840x2160, mode WindowedFullscreen.
+[2023.01.11-04.51.19:240][407]LogBlueprintUserMessages: [BP_OscOneCursorReceiver_C_1] ad
+[2023.01.11-04.51.20:349][540]LogBlueprintUserMessages: [BP_OscOneCursorReceiver_C_1] remove
+[2023.01.11-04.51.20:683][580]LogBlueprintUserMessages: [BP_OscOneCursorReceiver_C_1] ad
+[2023.01.11-04.51.25:641][175]LogBlueprintUserMessages: [BP_OscOneCursorReceiver_C_1] remove
+[2023.01.11-04.51.27:235][366]LogBlueprintUserMessages: [BP_OscOneCursorReceiver_C_1] ad
+[2023.01.11-04.51.31:614][886]LogBlueprintUserMessages: [BP_OscOneCursorReceiver_C_1] remove
+[2023.01.11-04.51.32:855][ 35]LogBlueprintUserMessages: [BP_OscOneCursorReceiver_C_1] ad
+[2023.01.11-04.51.40:339][933]LogBlueprintUserMessages: [BP_OscOneCursorReceiver_C_1] remove
+[2023.01.11-04.54.57:467][571]LogBlueprintUserMessages: [BP_OscOneCursorReceiver_C_1] ad
+[2023.01.11-04.54.57:767][607]LogBlueprintUserMessages: [BP_OscOneCursorReceiver_C_1] remove
+[2023.01.11-04.55.00:209][900]LogBlueprintUserMessages: [BP_OscOneCursorReceiver_C_1] ad
+[2023.01.11-04.55.06:294][630]LogBlueprintUserMessages: [BP_OscOneCursorReceiver_C_1] remove
+[2023.01.11-04.55.08:170][855]LogBlueprintUserMessages: [BP_OscOneCursorReceiver_C_1] ad
+[2023.01.11-04.55.14:346][596]LogBlueprintUserMessages: [BP_OscOneCursorReceiver_C_1] remove
+[2023.01.11-04.55.16:082][804]LogBlueprintUserMessages: [BP_OscOneCursorReceiver_C_1] ad
+[2023.01.11-04.55.24:184][776]LogBlueprintUserMessages: [BP_OscOneCursorReceiver_C_1] remove
+[2023.01.11-04.55.27:436][166]LogBlueprintUserMessages: [BP_OscOneCursorReceiver_C_1] ad
+[2023.01.11-04.55.31:187][616]LogBlueprintUserMessages: [BP_OscOneCursorReceiver_C_1] remove
+[2023.01.11-04.55.32:436][766]LogBlueprintUserMessages: [BP_OscOneCursorReceiver_C_1] ad
+[2023.01.11-04.55.36:274][221]LogBlueprintUserMessages: [BP_OscOneCursorReceiver_C_1] remove
+[2023.01.11-04.55.47:191][531]Cmd: LevelEditor.ToggleImmersive
+[2023.01.11-04.55.47:209][531]LogViewport: Scene viewport resized to 3441x1891, mode WindowedFullscreen.
+[2023.01.11-04.55.47:224][532]LogViewport: Scene viewport resized to 3200x1728, mode WindowedFullscreen.
+[2023.01.11-04.55.47:244][533]LogViewport: Scene viewport resized to 2972x1574, mode WindowedFullscreen.
+[2023.01.11-04.55.47:261][534]LogViewport: Scene viewport resized to 2815x1468, mode WindowedFullscreen.
+[2023.01.11-04.55.47:278][535]LogViewport: Scene viewport resized to 2692x1385, mode WindowedFullscreen.
+[2023.01.11-04.55.47:295][536]LogViewport: Scene viewport resized to 2605x1326, mode WindowedFullscreen.
+[2023.01.11-04.55.47:312][537]LogViewport: Scene viewport resized to 2544x1285, mode WindowedFullscreen.
+[2023.01.11-04.55.47:329][538]LogViewport: Scene viewport resized to 2505x1259, mode WindowedFullscreen.
+[2023.01.11-04.55.47:345][539]LogViewport: Scene viewport resized to 2485x1245, mode WindowedFullscreen.
+[2023.01.11-04.55.47:364][540]LogViewport: Scene viewport resized to 2475x1238, mode WindowedFullscreen.
+[2023.01.11-04.55.47:379][541]LogViewport: Scene viewport resized to 2473x1237, mode WindowedFullscreen.
+[2023.01.11-04.55.47:397][542]LogViewport: Scene viewport resized to 2472x1237, mode WindowedFullscreen.
+[2023.01.11-04.55.47:614][568]Cmd: LevelEditor.ToggleImmersive
+[2023.01.11-04.55.47:629][568]LogViewport: Scene viewport resized to 2951x1560, mode WindowedFullscreen.
+[2023.01.11-04.55.47:642][569]LogViewport: Scene viewport resized to 3192x1723, mode WindowedFullscreen.
+[2023.01.11-04.55.47:661][570]LogViewport: Scene viewport resized to 3448x1896, mode WindowedFullscreen.
+[2023.01.11-04.55.47:678][571]LogViewport: Scene viewport resized to 3617x2009, mode WindowedFullscreen.
+[2023.01.11-04.55.47:697][572]LogViewport: Scene viewport resized to 3740x2092, mode WindowedFullscreen.
+[2023.01.11-04.55.47:717][573]LogViewport: Scene viewport resized to 3808x2139, mode WindowedFullscreen.
+[2023.01.11-04.55.47:735][574]LogViewport: Scene viewport resized to 3834x2156, mode WindowedFullscreen.
+[2023.01.11-04.55.47:752][575]LogViewport: Scene viewport resized to 3840x2160, mode WindowedFullscreen.
+[2023.01.11-04.55.48:371][649]Cmd: LevelEditor.ToggleImmersive
+[2023.01.11-04.55.48:388][649]LogViewport: Scene viewport resized to 3457x1902, mode WindowedFullscreen.
+[2023.01.11-04.55.48:400][650]LogViewport: Scene viewport resized to 3275x1779, mode WindowedFullscreen.
+[2023.01.11-04.55.48:420][651]LogViewport: Scene viewport resized to 3028x1612, mode WindowedFullscreen.
+[2023.01.11-04.55.48:437][652]LogViewport: Scene viewport resized to 2855x1495, mode WindowedFullscreen.
+[2023.01.11-04.55.48:454][653]LogViewport: Scene viewport resized to 2724x1407, mode WindowedFullscreen.
+[2023.01.11-04.55.48:472][654]LogViewport: Scene viewport resized to 2626x1340, mode WindowedFullscreen.
+[2023.01.11-04.55.48:490][655]LogViewport: Scene viewport resized to 2553x1291, mode WindowedFullscreen.
+[2023.01.11-04.55.48:507][656]LogViewport: Scene viewport resized to 2511x1263, mode WindowedFullscreen.
+[2023.01.11-04.55.48:524][657]LogViewport: Scene viewport resized to 2487x1246, mode WindowedFullscreen.
+[2023.01.11-04.55.48:541][658]LogViewport: Scene viewport resized to 2476x1239, mode WindowedFullscreen.
+[2023.01.11-04.55.48:558][659]LogViewport: Scene viewport resized to 2473x1237, mode WindowedFullscreen.
+[2023.01.11-04.55.48:574][660]LogViewport: Scene viewport resized to 2472x1237, mode WindowedFullscreen.
+[2023.01.11-04.55.48:883][697]Cmd: MainFrame.ToggleFullscreen
+[2023.01.11-04.55.49:065][697]LogViewport: Scene viewport resized to 2477x1210, mode Windowed.
+[2023.01.11-04.56.32:383][102]LogBlueprintUserMessages: [BP_OscOneCursorReceiver_C_1] ad
+[2023.01.11-04.56.32:718][103]LogBlueprintUserMessages: [BP_OscOneCursorReceiver_C_1] remove
+[2023.01.11-04.56.34:050][107]LogBlueprintUserMessages: [BP_OscOneCursorReceiver_C_1] ad
+[2023.01.11-04.56.34:384][108]LogBlueprintUserMessages: [BP_OscOneCursorReceiver_C_1] remove
+[2023.01.11-04.56.35:384][111]LogBlueprintUserMessages: [BP_OscOneCursorReceiver_C_1] ad
+[2023.01.11-04.56.35:718][112]LogBlueprintUserMessages: [BP_OscOneCursorReceiver_C_1] remove
+[2023.01.11-04.56.36:101][113]LogBlueprintUserMessages: [BP_OscOneCursorReceiver_C_1] ad
+[2023.01.11-04.56.36:386][114]LogBlueprintUserMessages: [BP_OscOneCursorReceiver_C_1] remove
+[2023.01.11-04.56.37:053][116]LogBlueprintUserMessages: [BP_OscOneCursorReceiver_C_1] ad
+[2023.01.11-04.56.37:385][117]LogBlueprintUserMessages: [BP_OscOneCursorReceiver_C_1] remove
+[2023.01.11-04.56.38:051][119]LogBlueprintUserMessages: [BP_OscOneCursorReceiver_C_1] ad
+[2023.01.11-04.56.38:718][121]LogBlueprintUserMessages: [BP_OscOneCursorReceiver_C_1] remove
+[2023.01.11-04.56.39:051][122]LogBlueprintUserMessages: [BP_OscOneCursorReceiver_C_1] ad
+[2023.01.11-04.56.39:385][123]LogBlueprintUserMessages: [BP_OscOneCursorReceiver_C_1] remove
+[2023.01.11-04.56.43:718][136]LogBlueprintUserMessages: [BP_OscOneCursorReceiver_C_1] ad
+[2023.01.11-04.56.44:052][137]LogBlueprintUserMessages: [BP_OscOneCursorReceiver_C_1] remove
+[2023.01.11-04.57.06:719][205]LogBlueprintUserMessages: [BP_OscOneCursorReceiver_C_1] ad
+[2023.01.11-04.57.07:386][207]LogBlueprintUserMessages: [BP_OscOneCursorReceiver_C_1] remove
+[2023.01.11-04.57.12:780][280]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.11-04.57.12:780][280]LogWorld: BeginTearingDown for /Game/Map/UEDPIE_0_Main
+[2023.01.11-04.57.12:780][280]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2023.01.11-04.57.12:780][280]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.11-04.57.12:786][280]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.01.11-04.57.12:791][280]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.11-04.57.12:894][280]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.01.11-04.57.12:894][280]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=23
+[2023.01.11-04.57.12:895][280]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=23
+[2023.01.11-04.57.12:899][280]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.11-04.57.12:902][280]LogUObjectHash: Compacting FUObjectHashTables data took   1.92ms
+[2023.01.11-04.57.12:953][281]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2023.01.11-04.57.12:956][281]LogViewport: Scene viewport resized to 848x477, mode Windowed.
+[2023.01.11-04.59.16:875][934]LogDerivedDataCache: C:/Users/FurutaniIssei/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:11.049 and deleted 0 files with total size 0 MiB. Scanned 5857 files in 5802 folders with total size 360 MiB.
+[2023.01.11-05.59.16:884][734]LogDerivedDataCache: C:/Users/FurutaniIssei/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:11.058 and deleted 0 files with total size 0 MiB. Scanned 5857 files in 5802 folders with total size 360 MiB.
+[2023.01.11-06.59.15:915][531]LogDerivedDataCache: C:/Users/FurutaniIssei/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:10.088 and deleted 0 files with total size 0 MiB. Scanned 5857 files in 5802 folders with total size 360 MiB.
+[2023.01.11-07.59.16:882][334]LogDerivedDataCache: C:/Users/FurutaniIssei/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:11.053 and deleted 0 files with total size 0 MiB. Scanned 5857 files in 5802 folders with total size 360 MiB.
+[2023.01.11-08.59.16:886][134]LogDerivedDataCache: C:/Users/FurutaniIssei/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:11.058 and deleted 0 files with total size 0 MiB. Scanned 5857 files in 5802 folders with total size 360 MiB.
