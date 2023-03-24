@@ -15151,3 +15151,12 @@ UnknownFunction []
 [2023.03.24-21.29.25:540][168]LogContentValidation: Display: /Script/UMGEditor.WidgetBlueprint /Game/UI/WBP_Score.WBP_Score を検証しています
 [2023.03.24-21.29.25:540][168]LogContentValidation: Display: /Script/Engine.Blueprint /Game/BP/BP_BBCircleGameMode.BP_BBCircleGameMode を検証しています
 [2023.03.24-21.29.25:540][168]LogContentValidation: Display: /Script/Engine.World /Game/Map/Main.Main を検証しています
+[2023.03.24-21.32.29:677][193]LogContentBrowser: Attempting asset rename: BP_BBCircleGameInstance -> BP_BBCircleGameInstance
+[2023.03.24-21.32.48:525][324]LogContentBrowser: Attempting asset rename: BP_BBCircleGameInstance -> BP_DrawBigCiGameInstance
+[2023.03.24-21.32.52:037][324]LogSlate: Window 'メッセージ' being destroyed
+[2023.03.24-21.32.52:047][324]Message dialog closed, result: Cancel, title: メッセージ, text: ソースコード、コンフィグ INI、テキスト ファイルは、次を見つけるか次と交換する必要が生じる場合があります
+
+
+BP_BBCircleGameInstance
+
+そうではない場合、アセットはクック済みビルドで失われる可能性があります。名前を変更しますか？
